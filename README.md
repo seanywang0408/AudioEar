@@ -14,9 +14,20 @@ Spatial audio, which focuses on immersive 3D sound rendering, is widely applied 
 
 To this end, we propose to achieve personalized spatial audio by reconstructing 3D human ears with single-view images. First, to benchmark the ear reconstruction task, we introduce AudioEar3D, a high-quality 3D ear dataset consisting of 112 point cloud ear scans with RGB images. To self-supervisedly train a reconstruction model, we further collect a 2D ear dataset composed of 2,000 images, each one with manual annotation of occlusion and 55 landmarks, named AudioEar2D. To our knowledge, both datasets have the largest scale and best quality of their kinds for public use. Further, we propose AudioEarM, a reconstruction method guided by a depth estimation network that is trained on synthetic data, with two loss functions tailored for ear data. Lastly, to fill the gap between the vision and acoustics community, we develop a pipeline to integrate the reconstructed ear mesh with an off-the-shelf 3D human body and simulate a personalized Head-Related Transfer Function (HRTF), which is the core of spatial audio rendering.
 
-## Data Preparation
+## Published Datasets
 
-The AudioEar3D and AudioEar2D datasets could be downloaded in [Zenodo](https://zenodo.org/record/7581758#.Y9iGcHBByNd).  If you find any downloading problem, you could also use this mirror link from [Google Drive](https://drive.google.com/drive/folders/1fWTtaFVkEAgLQRz55h8jQt7eJ6omFjxK?usp=sharing). 
+Our collected datasets, **AudioEar3D** and **AudioEar2D**, could be downloaded in [Zenodo](https://zenodo.org/record/7581758#.Y9iGcHBByNd).  If you find any downloading problem, you could also use this mirror link from [Google Drive](https://drive.google.com/drive/folders/1fWTtaFVkEAgLQRz55h8jQt7eJ6omFjxK?usp=sharing). 
+
+<center>AudioEar3D</center>
+
+![](./assets/audioear3d.jpg)
+
+<center>AudioEar2D</center>
+
+![](./assets/audioear2d.jpg)
+
+
+## Data Preparation
 
 1. <font color=#A9A9A9>Prepare AudioEar2D Dataset</font>
 
