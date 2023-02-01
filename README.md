@@ -16,7 +16,7 @@ To this end, we propose to achieve personalized spatial audio by reconstructing 
 
 ## Published Datasets
 
-Our collected datasets, **AudioEar3D** and **AudioEar2D**, could be downloaded in [Zenodo](https://zenodo.org/record/7581758#.Y9iGcHBByNd).  If you find any downloading problem, you could also use this mirror link from [Google Drive](https://drive.google.com/drive/folders/1fWTtaFVkEAgLQRz55h8jQt7eJ6omFjxK?usp=sharing). 
+Our collected datasets, **AudioEar3D** and **AudioEar2D**, could be downloaded in [Zenodo](https://zenodo.org/record/7592895#.Y9nobHBByNc).  If you find any downloading problem, you could also use this mirror link from [Google Drive](https://drive.google.com/drive/folders/1fWTtaFVkEAgLQRz55h8jQt7eJ6omFjxK?usp=sharing). 
 
 
 
