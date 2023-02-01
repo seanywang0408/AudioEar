@@ -2,7 +2,7 @@
 
 This is the official code of AAAI'23 paper ``AudioEar: Single-View Ear Reconstruction for Personalized Spatial Audio`` written in PyTorch.
 
-**Note**: This codebase is a naive version and is under refactoring. If you have any questions, feel free to contact the [author](huangxiaoyang@sjtu.edu.cn).
+**Note**: This codebase is a naive version and is under refactoring. If you have any questions, feel free to contact the <a href="mailto:huangxiaoyang@sjtu.edu.cn">author</a>.
 
 ## [Paper](https://arxiv.org/abs/2301.12613)
 
