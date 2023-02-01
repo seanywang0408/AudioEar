@@ -20,7 +20,7 @@ Our collected datasets, **AudioEar3D** and **AudioEar2D**, could be downloaded i
 
 
 
-<center>AudioEar3D
+### AudioEar3D
 
 ![](./assets/audioear3d.jpg)
 
@@ -33,9 +33,9 @@ Our collected datasets, **AudioEar3D** and **AudioEar2D**, could be downloaded i
 |Ploumpis et al.  | 234    |&#10008;   |\*\*\*  |&#10008;      |
 |**AudioEar3D**   | 112    |&#10004;   |\*\*\*\*|&#10004;      |
 
-</center>
 
-<center>AudioEar2D
+
+### AudioEar2D
 
 ![](./assets/audioear2d.jpg)
 
@@ -53,7 +53,6 @@ Our collected datasets, **AudioEar3D** and **AudioEar2D**, could be downloaded i
 |**AudioEar2D**  | 2,000  |In-the-wild   |&#10004;  |Reconstruction      |
 
 
-</center>
 
 
 ## Data Preparation
