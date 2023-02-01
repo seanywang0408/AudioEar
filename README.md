@@ -8,7 +8,7 @@ This is the official code of AAAI'23 paper ``AudioEar: Single-View Ear Reconstru
 
 ## Introduction
 
-Spatial audio, which focuses on immersive 3D sound rendering, is widely applied in the acoustic industry. One of the key problems of current spatial audio rendering methods is the lack of personalization based on different anatomies of individuals, which is essential to produce accurate sound source positions. In this work, we address this problem from an interdisciplinary perspective. The rendering of spatial audio is strongly correlated with the 3D shape of human bodies, particularly ears. 
+Spatial audio, which focuses on immersive 3D sound rendering, is widely applied in the acoustic industry. One of t   he key problems of current spatial audio rendering methods is the lack of personalization based on different anatomies of individuals, which is essential to produce accurate sound source positions. In this work, we address this problem from an interdisciplinary perspective. The rendering of spatial audio is strongly correlated with the 3D shape of human bodies, particularly ears. 
 
 ![](./assets/pipeline.jpg)
 
@@ -18,13 +18,42 @@ To this end, we propose to achieve personalized spatial audio by reconstructing 
 
 Our collected datasets, **AudioEar3D** and **AudioEar2D**, could be downloaded in [Zenodo](https://zenodo.org/record/7581758#.Y9iGcHBByNd).  If you find any downloading problem, you could also use this mirror link from [Google Drive](https://drive.google.com/drive/folders/1fWTtaFVkEAgLQRz55h8jQt7eJ6omFjxK?usp=sharing). 
 
-<center>AudioEar3D</center>
+
+
+<center>AudioEar3D
 
 ![](./assets/audioear3d.jpg)
 
-<center>AudioEar2D</center>
+| 3D Ear Dataset  | Scale  | with Image| Quality| Accessibility|
+|:----            | :----: |  :----:   | :----: | :----:       |  
+|UND-J2           | 1,800  |&#10004;   |\*      |&#10004;      |
+|York3DEar        | 500    |&#10008;   |\*      |&#10004;      |
+|SYMARE-1         | 20     |&#10008;   |\*\*\*  |&#10004;      |
+|SYMARE-2         | 102    |&#10008;   |\*\*\*  |&#10008;      |
+|Ploumpis et al.  | 234    |&#10008;   |\*\*\*  |&#10008;      |
+|**AudioEar3D**   | 112    |&#10004;   |\*\*\*\*|&#10004;      |
+
+</center>
+
+<center>AudioEar2D
 
 ![](./assets/audioear2d.jpg)
+
+| 2D Ear Dataset | Scale  | Source    |Landmark Annotations| Usage     |
+|:----           | :----: |  :----:   | :----:    |:----:     |  
+|UND-E           | 464    |Limited   |&#10008;      |Biometrics      |
+|AMI             | 700    |Limited   |&#10008;      |Biometrics      |
+|IIT Delhi Ear   | 754    |Limited   |&#10008;  |Biometrics      |
+|WPUTEDB         | 3348   |Limited   |&#10008;  |Biometrics      |
+|UBEAR           | 4,410  |Limited   |&#10008;  |Biometrics      |
+|IBug-B          | 2,058  |In-the-wild   |&#10008;  |Biometrics      |
+|AWE             | 9,500  |In-the-wild   |&#10008;  |Biometrics      |
+|EarVN           | 28,412 |In-the-wild   |&#10008;  |Biometrics      |
+|IBug-A          | 605    |In-the-wild   |&#10004;  |Reconstruction     |
+|**AudioEar2D**  | 2,000  |In-the-wild   |&#10004;  |Reconstruction      |
+
+
+</center>
 
 
 ## Data Preparation
