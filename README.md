@@ -74,6 +74,9 @@ Our collected datasets, **AudioEar3D** and **AudioEar2D**, could be downloaded i
 
    - <font color=#A9A9A9>Download Synthetic dataset from [here](https://drive.google.com/drive/folders/1fWTtaFVkEAgLQRz55h8jQt7eJ6omFjxK?usp=sharing), then modify the ``cfg.s2m.sythetic_dataset_path`` in the ``config.py`` to the directory of the dataset. </font>
 
+## Pre-trained Weights
+
+The pre-train weights of our ResNet encoder and Monocular Depth Estimation (MDE) model could downloaded through this [link](https://drive.google.com/drive/folders/1fWTtaFVkEAgLQRz55h8jQt7eJ6omFjxK?usp=sharing).
 
 ## Requirements
 
