@@ -176,7 +176,9 @@ class EarExtendDataLoader(Dataset):
 
     def __getitem__(self, index):
         
-        key_pts = np.load(self.datalist[index][:-4]+'npy').astype(np.float32)
+        # key_pts = np.load(self.datalist[index][:-4]+'npy').astype(np.float32)
+        with open(self.datalist[index][:-4]+'json', 'r') as f:
+            key_pts = np.array(json.load(f)['shapes']['points']).astype(np.float32)
         img = Image.open(self.datalist[index][:-4]+'png')
         img_id = self.datalist[index][-10:-5]
         
