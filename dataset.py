@@ -250,7 +250,9 @@ class EarCombineDataLoader(Dataset):
 
     def __getitem__(self, index):
         
-        key_pts = np.load(self.datalist[index][:-3]+'npy').astype(np.float32)
+        # key_pts = np.load(self.datalist[index][:-3]+'npy').astype(np.float32)
+        with open(self.datalist[index][:-3]+'json', 'r') as f:
+            key_pts = np.array(json.load(f)['shapes']['points']).astype(np.float32)
         img = Image.open(self.datalist[index][:-3]+'png')
         img_id = self.datalist[index][-10:-5]
         
